@@ -1,0 +1,20 @@
+{
+  "dependencies": {
+    "sass": "^1.51.0"
+  },
+  "name": "f0",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {
+    "dead-server": "^1.0.6"
+  },
+  "scripts": {
+    "dev": "dead-server --port=3001 --host=localhost",
+    "sass": "sass --watch input.scss output.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
